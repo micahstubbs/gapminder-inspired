@@ -1,17 +1,16 @@
+ const width = 600;
+  const height = 500;
 
-    const width = 600;
-    const height = 500;
+  const margin = {
+    left:20,
+    top:80,
+    right:0,
+    bottom:30
+  };
 
-    const margin = {
-      left:20,
-      top:80,
-      right:0,
-      bottom:30
-    };
-
-    function calculateDistance(x1,y1,x2,y2){
-      return Math.sqrt( Math.pow(x1-x2,2) + Math.pow(y1-y2,2) )
-    }
+  function calculateDistance(x1,y1,x2,y2){
+    return Math.sqrt( Math.pow(x1-x2,2) + Math.pow(y1-y2,2) )
+  }
 
     const svg = d3.select("svg")
       .at({

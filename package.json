@@ -1,0 +1,38 @@
+{
+  "name": "gapminder-inspired",
+  "version": "0.1.0",
+  "description": "gapminder-inspired",
+  "scripts": {
+    "lint": "eslint **/ --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/micahstubbs/gapminder-inspired"
+  },
+  "keywords": [
+    "gapminder",
+    "d3"
+  ],
+  "homepage": "https://github.com/micahstubbs/gapminder-inspired",
+  "author": {
+    "name": "Contributors",
+    "email": "micah.stubbs@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "@micahstubbs",
+      "email": "micah.stubbs@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.10.2",
+    "eslint-plugin-jsx-a11y": "^1.5.5",
+    "eslint-plugin-react": "^5.2.2"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micahstubbs/gapminder-inspired"
+  }
+}
