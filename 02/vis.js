@@ -1,12 +1,13 @@
 
-    var width = 600,
-      height = 500,
-      margin = {
-        left:20,
-        top:80,
-        right:0,
-        bottom:30
-      };
+    var width = 600;
+    var height = 500;
+
+    var margin = {
+      left:20,
+      top:80,
+      right:0,
+      bottom:30
+    };
 
     function calculateDistance(x1,y1,x2,y2){
       return Math.sqrt( Math.pow(x1-x2,2) + Math.pow(y1-y2,2) )
@@ -330,6 +331,6 @@
 
 
     }
-      d3.csv("gapMinder2015.csv", prepare, render);
+    d3.csv("gapMinder2015.csv", prepare, render);
 
     var labels = [];
