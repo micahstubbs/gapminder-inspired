@@ -166,7 +166,7 @@
           stroke: d => colours(d.region)
         });
 
-      labels.forEach(function(d){
+      labels.forEach(d => {
           countries.filter(v => v.label == d.label)
             .selectAll("text.label")
             .data([d])
