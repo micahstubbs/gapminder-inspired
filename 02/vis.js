@@ -1,8 +1,8 @@
 
-    var width = 600;
-    var height = 500;
+    const width = 600;
+    const height = 500;
 
-    var margin = {
+    const margin = {
       left:20,
       top:80,
       right:0,
@@ -13,7 +13,7 @@
       return Math.sqrt( Math.pow(x1-x2,2) + Math.pow(y1-y2,2) )
     }
 
-    var svg = d3.select("svg")
+    const svg = d3.select("svg")
       .at({
         width: width + "px",
         height: height + "px"
@@ -23,9 +23,9 @@
         height
       });
 
-    var heading = svg.append("text.heading")
+    const heading = svg.append("text.heading")
       .translate([0, 16])
-      .tspans(["A snapshot of global socio-economic development in 2016,", "as measured by GDP per capita and life expectancy"],1.1)
+      .tspans(["A snapshot of global socio-economic development in 2016,", "as measured by GDP per capita and life expectancy"],1.1);
 
     function prepare(d){
 
@@ -46,18 +46,18 @@
       // console.log(data);
 
       // Define and draw x axis
-      var x = d3.scaleLog()
+      const x = d3.scaleLog()
         .base(10)
         .range([margin.left, width-margin.right])
         .domain(d3.extent(data, d=> d.gdpPerCap10));
 
-      var xAxis = d3.axisTop()
+      const xAxis = d3.axisTop()
         .scale(x)
         .ticks(5)
         .tickFormat(d3.format(","))
         .tickSize(-(height-(margin.bottom+margin.top)));
 
-      var xDraw = svg.append("g.axis.x")
+      const xDraw = svg.append("g.axis.x")
         .translate([0, margin.top])
         .call(xAxis);
 
@@ -70,57 +70,57 @@
         .text("");
 
       // Add an x-axis title
-      var xTitle = svg.append("text.x.title.shadow")
+      const xTitle = svg.append("text.x.title.shadow")
         .translate([x(300)-11, margin.top+13])
         .html("GDP per capita (constant 2010 US$) &rarr;");
 
       // Define and draw y axis
-      var y = d3.scaleLinear()
+      const y = d3.scaleLinear()
         .range([height-margin.bottom, margin.top])
         .domain(d3.extent(data, d=> d.lifeEx));
 
-      var yAxis = d3.axisLeft()
+      const yAxis = d3.axisLeft()
         .scale(y)
         .ticks(5)
         .tickSize(-(width-(margin.left+margin.right)));
 
-      var yDraw = svg.append("g.axis.y")
+      const yDraw = svg.append("g.axis.y")
         .translate([margin.left, 0])
         .call(yAxis);
 
       // Add a y-axis title
-      var yTitle = svg.append("text.y.title.shadow")
+      const yTitle = svg.append("text.y.title.shadow")
         .translate([margin.left+2, y(79)-6])
         .tspans(["Life", "expectancy", "at birth", "(years)","&darr;"],1.1);
 
       // Define a circle area scale
-      var areaScale = d3.scaleSqrt()
+      const areaScale = d3.scaleSqrt()
         .range([0, 35])
         .domain([0, d3.max(data, d => d.population)]);
 
-      var pops = data.map(d => d.population).sort((a,b) => a-b);
+      const pops = data.map(d => d.population).sort((a,b) => a-b);
 
       // Draw an area legend
-      var areaLegend = svg.append("g.legend").translate([width-85, height-180]);
-      var areaGroups = areaLegend.selectAll("g")
+      const areaLegend = svg.append("g.legend").translate([width-85, height-180]);
+      const areaGroups = areaLegend.selectAll("g")
         .data([10000000, 100000000, 500000000])
         .enter()
         .append("g");
-      var areaCircles = areaGroups.append("circle")
+      const areaCircles = areaGroups.append("circle")
         .at({
           cy: d => -areaScale(d),
           r: d => areaScale(d),
           fill: "none",
           stroke: "#74736c"
         });
-      var areaLines = areaGroups.append("line")
+      const areaLines = areaGroups.append("line")
         .at({
           y1: d => -2*areaScale(d),
           y2: d => -2*areaScale(d),
           x2: 50,
           stroke: "#74736c"
         });
-      var areaNames = areaGroups.append("text.shadow")
+      const areaNames = areaGroups.append("text.shadow")
         .at({
           y: d => -2*areaScale(d)+5,
           x: 50
@@ -128,36 +128,36 @@
         .html(d => (d/1000000) + "m");
 
       // Define a region colour scale
-      var colours = d3.scaleOrdinal()
+      const colours = d3.scaleOrdinal()
         .range(['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f'])
         .domain(data.map(d => d.region).filter((element, index, array) => array.indexOf(element)===index));
 
       // Draw a colour legend
-      var colourLegend = svg.append("g.legend").translate([width-155, height-150]);
-      var colourGroups = colourLegend.selectAll("g")
+      const colourLegend = svg.append("g.legend").translate([width-155, height-150]);
+      const colourGroups = colourLegend.selectAll("g")
         .data(colours.domain())
         .enter()
         .append("g")
         .translate((d,i) => [0, i*20]);
-      var colourNames = colourGroups.append("text.shadow")
+      const colourNames = colourGroups.append("text.shadow")
         .html(d => d);
-      var colourDots = colourGroups.append("circle")
+      const colourDots = colourGroups.append("circle")
         .at({
           cx: -8,
           cy: -5,
           r: 5,
           fill: d => colours(d)
-        })
+        });
 
       // Draw and position a group element for each country
-      var countries = svg.selectAll("g.country")
+      const countries = svg.selectAll("g.country")
         .data(data)
         .enter()
         .append("g.country")
         .translate(d => [x(d.gdpPerCap10), y(d.lifeEx)]);
 
       // Draw a bubble for each country
-      var bubbles = countries.append("circle")
+      const bubbles = countries.append("circle")
         .at({
           r: d => areaScale(d.population)
         })
@@ -189,7 +189,7 @@
         });
 
       countries.on("click", function(d){
-        var selection = d3.select(this);
+        const selection = d3.select(this);
 
         selection
           .selectAll("text.label")
@@ -209,8 +209,8 @@
         .call(
           d3.drag()
             .on("drag", function(){
-              var selection = d3.select(this);
-              var dataPoint = data[data.map(a => a.label).indexOf(selection.data()[0].label)];
+              const selection = d3.select(this);
+              const dataPoint = data[data.map(a => a.label).indexOf(selection.data()[0].label)];
 
               selection
                 .translate([d3.event.x, d3.event.y])
@@ -242,8 +242,8 @@
               }
             })
             .on("end", function(){
-              var selection = d3.select(this);
-              var dataPoint = data[data.map(a => a.label).indexOf(selection.data()[0].label)];
+              const selection = d3.select(this);
+              const dataPoint = data[data.map(a => a.label).indexOf(selection.data()[0].label)];
 
               selection
                 .st({cursor: "pointer"});
@@ -272,8 +272,8 @@
         .call(
           d3.drag()
             .on("drag", function(){
-              var selection = d3.select(this);
-              var dataPoint = data[data.map(a => a.label).indexOf(selection.data()[0].label)];
+              const selection = d3.select(this);
+              const dataPoint = data[data.map(a => a.label).indexOf(selection.data()[0].label)];
 
               selection
                 .translate([d3.event.x, d3.event.y])
@@ -305,8 +305,8 @@
               }
             })
             .on("end", function(){
-              var selection = d3.select(this);
-              var dataPoint = data[data.map(a => a.label).indexOf(selection.data()[0].label)];
+              const selection = d3.select(this);
+              const dataPoint = data[data.map(a => a.label).indexOf(selection.data()[0].label)];
 
               selection
                 .st({cursor: "pointer"});
