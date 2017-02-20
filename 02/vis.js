@@ -15,8 +15,8 @@
 
     const svg = d3.select("svg")
       .at({
-        width: width + "px",
-        height: height + "px"
+        width: `${width}px`,
+        height: `${height}px`
       })
       .st({
         width,
@@ -125,7 +125,7 @@
           y: d => -2*areaScale(d)+5,
           x: 50
         })
-        .html(d => (d/1000000) + "m");
+        .html(d => `${d/1000000}m`);
 
       // Define a region colour scale
       const colours = d3.scaleOrdinal()
@@ -220,7 +220,7 @@
 
                 var path = d3.select(selection.node().parentNode)
                   .selectAll("path")
-                  .data(["M " + (d3.event.x + selection.node().getBoundingClientRect().width/2) + ", " + d3.event.y + " A 30 30 0 0 0 0,0"], p => p);
+                  .data([`M ${d3.event.x + selection.node().getBoundingClientRect().width/2}, ${d3.event.y} A 30 30 0 0 0 0,0`], p => p);
 
                 path
                   .attr("d", p => p)
@@ -283,7 +283,7 @@
 
                 var path = d3.select(selection.node().parentNode)
                   .selectAll("path")
-                  .data(["M " + (d3.event.x + selection.node().getBoundingClientRect().width/2) + ", " + d3.event.y + " A 30 30 0 0 0 0,0"], p => p)
+                  .data([`M ${d3.event.x + selection.node().getBoundingClientRect().width/2}, ${d3.event.y} A 30 30 0 0 0 0,0`], p => p)
 
                 path
                   .attr("d", p => p)
