@@ -1,0 +1,218 @@
+code,shortName,region,lifeEx,gdpPerCap10,gdpPerCapPPP11,population
+AFG,Afghanistan,South Asia,60.374,619.751,1808.126,32526562
+ALB,Albania,Europe & Central Asia,77.83,4543.088,11015.164,2889167
+DZA,Algeria,Middle East & North Africa,74.808,4794.049,13822.566,39666519
+ASM,American Samoa,East Asia & Pacific,NA,NA,NA,55538
+ADO,Andorra,Europe & Central Asia,NA,NA,NA,70473
+AGO,Angola,Sub-Saharan Africa,52.267,4153.146,6937.631,25021974
+ATG,Antigua and Barbuda,Latin America & Caribbean,75.938,13708.995,21660.222,91818
+ARG,Argentina,Latin America & Caribbean,76.159,10514.588,19126.342,43416755
+ARM,Armenia,Europe & Central Asia,74.676,3796.517,7906.917,3017712
+ABW,Aruba,Latin America & Caribbean,75.451,NA,NA,103889
+AUS,Australia,East Asia & Pacific,82.251,54708.184,43631.236,23781169
+AUT,Austria,Europe & Central Asia,81.337,47754.595,44048.431,8611088
+AZE,Azerbaijan,Europe & Central Asia,70.763,6115.758,16698.864,9651349
+BHS,The Bahamas,Latin America & Caribbean,75.234,20683.869,21602.675,388019
+BHR,Bahrain,Middle East & North Africa,76.683,22347.971,43753.898,1377237
+BGD,Bangladesh,South Asia,71.626,972.881,3136.561,160995642
+BRB,Barbados,Latin America & Caribbean,75.496,15971.015,15408.385,284215
+BLR,Belarus,Europe & Central Asia,72.976,6158.995,16661.99,9513000
+BEL,Belgium,Europe & Central Asia,80.588,45036.128,41825.875,11285721
+BLZ,Belize,Latin America & Caribbean,70.077,4392.547,7967.767,359287
+BEN,Benin,Sub-Saharan Africa,59.511,804.724,1931.665,10879829
+BMU,Bermuda,North America,80.797,NA,NA,65235
+BTN,Bhutan,South Asia,69.471,2668.121,7860.987,774830
+BOL,Bolivia,Latin America & Caribbean,68.344,2392.766,6531.074,10724705
+BIH,Bosnia and Herzegovina,Europe & Central Asia,76.433,4801.88,10118.77,3810416
+BWA,Botswana,Sub-Saharan Africa,64.429,7080.119,14876.362,2262485
+BRA,Brazil,Latin America & Caribbean,74.402,11159.254,14454.937,207847528
+VGB,British Virgin Islands,Latin America & Caribbean,NA,NA,NA,30117
+BRN,Brunei,East Asia & Pacific,78.81,32226.096,73604.88,423188
+BGR,Bulgaria,Europe & Central Asia,75.407,7612.025,17000.142,7177991
+BFA,Burkina Faso,Sub-Saharan Africa,58.588,644.609,1592.917,18105570
+BDI,Burundi,Sub-Saharan Africa,56.692,206.711,682.944,11178921
+CPV,Cabo Verde,Sub-Saharan Africa,73.147,3500.205,6157.897,520502
+KHM,Cambodia,East Asia & Pacific,68.212,1020.908,3278.221,15577899
+CMR,Cameroon,Sub-Saharan Africa,55.493,1303.589,2925.887,23344179
+CAN,Canada,North America,81.957,50000.56,42894.667,35851774
+CYM,Cayman Islands,Latin America & Caribbean,NA,NA,NA,59967
+CAF,Central African Republic,Sub-Saharan Africa,50.658,292.165,581.136,4900274
+TCD,Chad,Sub-Saharan Africa,51.556,951.685,2043.544,14037472
+CHI,Channel Islands,Europe & Central Asia,80.606,NA,NA,163692
+CHL,Chile,Latin America & Caribbean,81.496,14660.505,22197.043,17948141
+CHN,China,East Asia & Pacific,75.782,6497.482,13571.686,1371220000
+COL,Colombia,Latin America & Caribbean,73.993,7447.877,12988.339,48228704
+COM,Comoros,Sub-Saharan Africa,63.257,758.694,1393.256,788474
+ZAR,Dem. Rep. Congo,Sub-Saharan Africa,58.659,384.507,736.68,77266814
+COG,Congo,Sub-Saharan Africa,62.311,3163.173,5993.153,4620330
+CRI,Costa Rica,Latin America & Caribbean,79.403,9237.952,14646.57,4807850
+CIV,Côte d'Ivoire,Sub-Saharan Africa,51.56,1496.236,3300.072,22701556
+HRV,Croatia,Europe & Central Asia,77.329,13807.347,20663.929,4224404
+CUB,Cuba,Latin America & Caribbean,79.391,NA,NA,11389562
+CUW,Curaçao,Latin America & Caribbean,77.824,NA,NA,158040
+CYP,Cyprus,Europe & Central Asia,80.132,27787.806,30603.531,1165300
+CZE,Czech Republic,Europe & Central Asia,78.276,21214.196,30380.591,10551219
+DNK,Denmark,Europe & Central Asia,80.549,58098.289,44041.735,5676002
+DJI,Djibouti,Middle East & North Africa,62.016,1650.308,3279.124,887861
+DMA,Dominica,Latin America & Caribbean,NA,6916.851,10204.036,72680
+DOM,Dominican Republic,Latin America & Caribbean,73.5,6552.694,13371.529,10528391
+ECU,Ecuador,Latin America & Caribbean,75.872,5366.545,10776.578,16144363
+EGY,Egypt,Middle East & North Africa,71.122,2707.086,10249.958,91508084
+SLV,El Salvador,Latin America & Caribbean,72.755,3853.108,8095.559,6126583
+GNQ,Equatorial Guinea,Sub-Saharan Africa,57.647,19433.267,38243.354,845060
+ERI,Eritrea,Sub-Saharan Africa,63.663,NA,NA,NA
+EST,Estonia,Europe & Central Asia,77.239,17638.494,27345.247,1311998
+ETH,Ethiopia,Sub-Saharan Africa,64.035,486.269,1529.894,99390750
+FRO,Faroe Islands,Europe & Central Asia,81.693,NA,NA,48199
+FJI,Fiji,East Asia & Pacific,70.089,4349.524,8756.4,892145
+FIN,Finland,Europe & Central Asia,81.129,45132.79,38940.93,5482013
+FRA,France,Europe & Central Asia,82.373,41533.867,37774.999,66808385
+PYF,French Polynesia,East Asia & Pacific,76.542,NA,NA,282764
+GAB,Gabon,Sub-Saharan Africa,64.383,10751.935,18860.214,1725292
+GMB,The Gambia,Sub-Saharan Africa,60.228,536.278,1577.569,1990924
+GEO,Georgia,Europe & Central Asia,74.669,4010.254,9015.888,3679000
+DEU,Germany,Europe & Central Asia,80.844,45408.306,43787.816,81413145
+GHA,Ghana,Sub-Saharan Africa,61.312,1696.645,3954.524,27409893
+GIB,Gibraltar,Europe & Central Asia,NA,NA,NA,32217
+GRC,Greece,Europe & Central Asia,81.285,22573.416,24094.794,10823732
+GRL,Greenland,Europe & Central Asia,NA,NA,NA,56114
+GRD,Grenada,Latin America & Caribbean,73.366,8391.155,12734.262,106825
+GUM,Guam,East Asia & Pacific,79.126,NA,NA,169885
+GTM,Guatemala,Latin America & Caribbean,71.722,3052.295,7252.95,16342897
+GIN,Guinea,Sub-Saharan Africa,58.733,417.097,1135.487,12608590
+GNB,Guinea-Bissau,Sub-Saharan Africa,55.16,533.794,1367.299,1844325
+GUY,Guyana,Latin America & Caribbean,66.406,3663.418,7064.45,767085
+HTI,Haiti,Latin America & Caribbean,62.747,727.783,1650.593,10711067
+HND,Honduras,Latin America & Caribbean,73.136,2313.045,4785.444,8075060
+HKG,"Hong Kong SAR, China",East Asia & Pacific,83.98,36173.317,53462.863,7305700
+HUN,Hungary,Europe & Central Asia,75.873,14516.683,24831.346,9844686
+ISL,Iceland,Europe & Central Asia,82.061,45411.045,42324.56,330823
+IND,India,South Asia,68.014,1750.623,5729.777,1311050527
+IDN,Indonesia,East Asia & Pacific,68.888,3834.056,10385.323,257563815
+IRN,Iran,Middle East & North Africa,75.389,NA,NA,79109272
+IRQ,Iraq,Middle East & North Africa,69.4,5119.252,14458.854,36423395
+IRL,Ireland,Europe & Central Asia,81.154,65292.383,61378.36,4640703
+IMY,Isle of Man,Europe & Central Asia,NA,NA,NA,87780
+ISR,Israel,Middle East & North Africa,82.154,33116.78,31970.689,8380400
+ITA,Italy,Europe & Central Asia,82.69,33849.392,34219.761,60802085
+JAM,Jamaica,Latin America & Caribbean,75.654,5000.709,8333.485,2725941
+JPN,Japan,East Asia & Pacific,83.588,47150.366,37872.462,126958472
+JOR,Jordan,Middle East & North Africa,74.052,3976.043,10239.664,7594547
+KAZ,Kazakhstan,Europe & Central Asia,71.62,10616.676,23522.291,17544126
+KEN,Kenya,Sub-Saharan Africa,61.576,1133.459,2901.013,46050302
+KIR,Kiribati,East Asia & Pacific,65.952,1615.576,1873.497,112423
+PRK,Dem. People's Rep. Korea,East Asia & Pacific,70.075,NA,NA,25155317
+KOR,Korea,East Asia & Pacific,82.156,25022.802,34386.575,50617045
+KSV,Kosovo,Europe & Central Asia,71.098,3796.233,9142.148,1797151
+KWT,Kuwait,Middle East & North Africa,74.585,35888.581,70107.458,3892115
+KGZ,Kyrgyz Republic,Europe & Central Asia,70.402,1017.147,3224.932,5957000
+LAO,Lao PDR,East Asia & Pacific,66.117,1531.221,5345.261,6802023
+LVA,Latvia,Europe & Central Asia,74.188,14321.258,23080.361,1978440
+LBN,Lebanon,Middle East & North Africa,79.373,7045.494,13089.012,5850743
+LSO,Lesotho,Sub-Saharan Africa,49.701,1370.266,2770.2,2135022
+LBR,Liberia,Sub-Saharan Africa,60.834,367.165,784.581,4503438
+LBY,Libya,Middle East & North Africa,71.716,NA,NA,6278438
+LIE,Liechtenstein,Europe & Central Asia,82.261,NA,NA,37531
+LTU,Lithuania,Europe & Central Asia,73.966,15231.267,26807.182,2910199
+LUX,Luxembourg,Europe & Central Asia,82.207,106408.574,92468.14,569676
+MAC,"Macao SAR, China",East Asia & Pacific,80.553,55860.177,104718.262,587606
+MKD,Macedonia,Europe & Central Asia,75.342,5093.836,12732.403,2078453
+MDG,Madagascar,Sub-Saharan Africa,65.086,409.924,1376.26,24235390
+MWI,Malawi,Sub-Saharan Africa,62.722,493.663,1111.649,17215232
+MYS,Malaysia,East Asia & Pacific,74.718,10878.389,25311.907,30331007
+MDV,Maldives,South Asia,76.773,7221.621,11993.911,409163
+MLI,Mali,Sub-Saharan Africa,57.986,720.81,1904.857,17599694
+MLT,Malta,Middle East & North Africa,81.746,24351.432,32719.946,431333
+MHL,Marshall Islands,East Asia & Pacific,NA,3344.566,3673.154,52993
+MRT,Mauritania,Sub-Saharan Africa,63.017,NA,NA,4067564
+MUS,Mauritius,Sub-Saharan Africa,74.194,9468.941,18864.106,1262605
+MEX,Mexico,Latin America & Caribbean,76.722,9510.596,16490.346,127017224
+FSM,Micronesia,East Asia & Pacific,69.101,2793.358,3284.135,104460
+MDA,Moldova,Europe & Central Asia,71.456,1978.256,4742.019,3554150
+MCO,Monaco,Europe & Central Asia,NA,NA,NA,37731
+MNG,Mongolia,East Asia & Pacific,69.464,3946.281,11477.827,2959134
+MNE,Montenegro,Europe & Central Asia,76.181,7259.986,15254.307,622388
+MAR,Morocco,Middle East & North Africa,74.016,3239.552,7364.766,34377511
+MOZ,Mozambique,Sub-Saharan Africa,55.026,511.467,1119.698,27977863
+MMR,Myanmar,East Asia & Pacific,65.858,1308.747,4930.59,53897154
+NAM,Namibia,Sub-Saharan Africa,64.68,6000.038,9778.405,2458830
+NRU,Nauru,East Asia & Pacific,NA,11158.993,14974.753,10222
+NPL,Nepal,South Asia,69.605,689.514,2312.394,28513700
+NLD,Netherlands,Europe & Central Asia,81.305,51268.471,46353.852,16936520
+NCL,New Caledonia,East Asia & Pacific,77.573,NA,NA,273000
+NZL,New Zealand,East Asia & Pacific,81.405,36801.396,35158.641,4595700
+NIC,Nicaragua,Latin America & Caribbean,74.81,1849.029,4884.151,6082032
+NER,Niger,Sub-Saharan Africa,61.458,383.831,897.395,19899120
+NGA,Nigeria,Sub-Saharan Africa,52.754,2548.174,5638.887,182201962
+MNP,Northern Mariana Islands,East Asia & Pacific,NA,NA,NA,55070
+NOR,Norway,Europe & Central Asia,81.751,89492.841,63649.505,5195921
+OMN,Oman,Middle East & North Africa,77.085,15965.94,37541.075,4490541
+PAK,Pakistan,South Asia,66.183,1142.752,4706.185,188924874
+PLW,Palau,East Asia & Pacific,NA,10410.088,14385.969,21291
+PAN,Panama,Latin America & Caribbean,77.595,10750.937,20885.339,3929141
+PNG,Papua New Guinea,East Asia & Pacific,62.607,NA,NA,7619321
+PRY,PY,Latin America & Caribbean,72.922,3822.861,8639.282,6639123
+PER,Peru,Latin America & Caribbean,74.526,5934.548,11767.522,31376670
+PHL,Philippines,East Asia & Pacific,68.266,2639.868,6938.21,100699395
+POL,Poland,Europe & Central Asia,77.254,14650.116,25322.538,37999494
+PRT,Portugal,Europe & Central Asia,80.722,21960.475,26513.983,10348648
+PRI,Puerto Rico,Latin America & Caribbean,79.375,NA,NA,3474182
+QAT,Qatar,Middle East & North Africa,78.597,74686.617,132937.666,2235355
+ROM,Romania,Europe & Central Asia,75.063,9530.657,20483.775,19832389
+RUS,Russia,Europe & Central Asia,70.366,11038.811,23895.341,144096812
+RWA,Rwanda,Sub-Saharan Africa,63.966,689.688,1655.175,11609666
+WSM,Samoa,East Asia & Pacific,73.512,3641.009,5574.068,193228
+SMR,San Marino,Europe & Central Asia,NA,NA,NA,31781
+STP,São Tomé and Principe,Sub-Saharan Africa,66.385,1292.872,3022.902,190344
+SAU,Saudi Arabia,Middle East & North Africa,74.337,21312.807,50283.934,31540372
+SEN,Senegal,Sub-Saharan Africa,66.373,1042.495,2273.624,15129273
+SRB,Serbia,Europe & Central Asia,75.534,5661.107,13277.752,7098247
+SYC,Seychelles,Sub-Saharan Africa,73.229,13617.884,25524.955,92900
+SLE,Sierra Leone,Sub-Saharan Africa,50.879,490.564,1473.913,6453184
+SGP,Singapore,East Asia & Pacific,82.646,51855.079,80191.539,5535002
+SXM,Sint Maarten (Dutch part),Latin America & Caribbean,NA,NA,NA,38817
+SVK,Slovak Republic,Europe & Central Asia,76.715,18643.147,28254.256,5424050
+SVN,Slovenia,Europe & Central Asia,80.52,23778.561,29097.343,2063768
+SLB,Solomon Islands,East Asia & Pacific,67.931,1475.36,2067.13,583591
+SOM,Somalia,Sub-Saharan Africa,55.355,NA,NA,10787104
+ZAF,South Africa,Sub-Saharan Africa,57.182,7593.358,12393.255,54956920
+SSD,South Sudan,Sub-Saharan Africa,55.682,717.696,1741.098,12339812
+ESP,Spain,Europe & Central Asia,83.078,30587.551,32329.588,46418269
+LKA,Sri Lanka,South Asia,74.795,3637.539,11047.667,20966000
+KNA,St. Kitts and Nevis,Latin America & Caribbean,NA,15080.773,23562.942,55572
+LCA,St. Lucia,Latin America & Caribbean,75.047,6822.606,10278.98,184999
+MAF,St. Martin (French part),Latin America & Caribbean,79.322,NA,NA,31754
+VCT,St. Vincent and the Grenadines,Latin America & Caribbean,72.937,6575.445,10462.41,109462
+SDN,Sudan,Sub-Saharan Africa,63.459,1807.663,4121.137,40234882
+SUR,Suriname,Latin America & Caribbean,71.151,9114.883,15687.232,542975
+SWZ,Swaziland,Sub-Saharan Africa,48.935,4057.284,8122.049,1286970
+SWE,Sweden,Europe & Central Asia,81.956,55186.039,45505.303,9798871
+CHE,Switzerland,Europe & Central Asia,82.849,75531.472,56517.452,8286976
+SYR,Syrian Arab Republic,Middle East & North Africa,70.071,NA,NA,18502413
+TJK,Tajikistan,Europe & Central Asia,69.598,932.911,2661.385,8481855
+TZA,Tanzania,Sub-Saharan Africa,64.944,842.374,2510.036,53470420
+THA,Thailand,East Asia & Pacific,74.422,5775.137,15346.647,67959359
+TMP,Timor-Leste,East Asia & Pacific,68.259,983.508,2253.168,1245015
+TGO,Togo,Sub-Saharan Africa,59.656,553.86,1371.564,7304578
+TON,Tonga,East Asia & Pacific,72.792,3700.243,5198.345,106170
+TTO,Trinidad and Tobago,Latin America & Caribbean,70.441,16696.03,31283.55,1360088
+TUN,Tunisia,Middle East & North Africa,74.144,4328.542,10769.933,11107800
+TUR,Turkey,Europe & Central Asia,75.164,11522.705,19460.482,78665830
+TKM,Turkmenistan,Europe & Central Asia,65.599,6932.844,15527.404,5373502
+TCA,Turks and Caicos Islands,Latin America & Caribbean,NA,NA,NA,34339
+TUV,Tuvalu,East Asia & Pacific,NA,3706.314,3687.484,9916
+UGA,Uganda,Sub-Saharan Africa,58.466,672.809,1738.462,39032383
+UKR,Ukraine,Europe & Central Asia,71.187,2825.85,7456.93,45198200
+ARE,United Arab Emirates,Middle East & North Africa,77.368,39313.274,65716.984,9156963
+GBR,United Kingdom,Europe & Central Asia,81.056,41187.684,38519.491,65138232
+USA,United States,North America,78.941,51638.065,52704.199,321418820
+URY,Uruguay,Latin America & Caribbean,76.986,13943.904,19952.253,3431555
+UZB,Uzbekistan,Europe & Central Asia,68.339,1856.719,5716.496,31299500
+VUT,Vanuatu,East Asia & Pacific,71.918,2823.185,2806.27,264652
+VEN,Venezuela,Latin America & Caribbean,74.236,NA,NA,31108083
+VNM,Vietnam,East Asia & Pacific,75.629,1684.866,5667.411,91703800
+VIR,Virgin Islands,Latin America & Caribbean,79.773,NA,NA,103574
+WBG,West Bank and Gaza,Middle East & North Africa,72.904,2648.974,4714.925,4422143
+YEM,Yemen,Middle East & North Africa,63.818,774.45,2649.313,26832215
+ZMB,Zambia,Sub-Saharan Africa,60.047,1607.358,3602.327,16211767
+ZWE,Zimbabwe,Sub-Saharan Africa,57.498,814.56,1677.97,15602751
