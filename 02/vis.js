@@ -18,8 +18,8 @@
         height: height + "px"
       })
       .st({
-        width: width,
-        height: height
+        width,
+        height
       });
 
     var heading = svg.append("text.heading")
